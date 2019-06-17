@@ -1,0 +1,57 @@
+# 查询扣分列表
+POST http://192.168.1.10:8888/w/score/list-page HTTP/1.1
+Content-Type: application/json
+
+{
+  "classId": 1,
+  "pageNo": 0,
+  "pageSize": 20
+}
+###
+
+# 添加值周扣分记录
+POST http://192.168.1.10:8888/w/score/add HTTP/1.1
+Content-Type: application/json
+
+{
+  "changeScore": 3,
+  "checkId": 0,
+  "checkName": "卫生",
+  "checkSubName": "卫生-2",
+  "classId": 1,
+  "remarks": "脏乱差，扣分",
+  "schoolId": 1
+}
+###
+
+
+
+# 查询班级列表
+POST http://192.168.1.10:8888/w/class/list HTTP/1.1
+Content-Type: application/json
+
+{
+  "schoolId": 1
+}
+###
+
+# 班级值周图形表（一周）
+POST http://192.168.1.10:8888/w/score/reportFroms HTTP/1.1
+Content-Type: application/json
+
+{
+  "classId": 1,
+}
+###
+
+
+# 值周排行榜
+POST http://192.168.1.10:8888/w/score-week/list-page HTTP/1.1
+Content-Type: application/json
+
+{
+  "pageNo": 0,
+  "pageSize": 100,
+  "schoolId": 1
+}
+###

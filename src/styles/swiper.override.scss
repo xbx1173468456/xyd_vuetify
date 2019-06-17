@@ -1,0 +1,27 @@
+.swiper-container {
+  width: 100% !important;
+  height: 100% !important;
+  top: 0px !important;
+  position: fixed !important;
+  z-index: 4000 !important;
+  background-color: white !important;
+}
+
+.swiper-pagination {
+  position: fixed !important;
+  z-index: 5000 !important;
+  bottom: 50px !important;
+}
+
+.swiper-wrapper {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.swiper-slide {
+  height: unset !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #00bcd4 !important;
+}

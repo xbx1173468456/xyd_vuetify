@@ -1,0 +1,18 @@
+{
+  "address": "string",
+  "code": "string",
+  "description": "string",
+  "email": "string",
+  "history": "string",
+  "idea": "string",
+  "lat": 0,
+  "lng": 0,
+  "logo": ["string"],
+  "masterId": 0,
+  "masterName": "string",
+  "mobile": "string",
+  "name": "string",
+  "qrCode": "string",
+  "start": "string",
+  "tel": "string"
+}

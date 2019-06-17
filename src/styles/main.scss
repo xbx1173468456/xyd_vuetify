@@ -1,0 +1,23 @@
+@import './vuetify.override.scss';
+@import './swiper.override.scss';
+@import './typo.scss';
+@import './util.scss';
+@import './spacing.scss';
+@import './layout.scss';
+@import '~quill/dist/quill.snow.css';
+@import '~quill/dist/quill.bubble.css';
+@import '~quill/dist/quill.core.css';
+
+$material-design-icons-font-directory-path: '~material-design-icons-iconfont/dist/fonts/';
+@import '~material-design-icons-iconfont/src/material-design-icons';
+
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+* {
+  letter-spacing: 0.1rem !important;
+}
