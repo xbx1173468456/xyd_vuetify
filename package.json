@@ -21,7 +21,7 @@
     "echarts": "^4.2.1",
     "hammerjs": "^2.0.8",
     "img-vuer": "^0.17.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "material-design-icons-iconfont": "^5.0.1",
     "moment": "^2.24.0",
     "quill": "^1.3.6",
